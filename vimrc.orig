@@ -1,0 +1,25 @@
+" vim: ft=vim:syntax:shiftwidth=2:tabstop=2:softtabstop=2
+
+" Setup Vim paths
+let vim_path = "~/.vim"
+let vimrc_path = vim_path . "/vimrcs"
+
+set runtimepath+=vim_path
+
+"echo vim_path
+"echo vimrc_path
+
+let config_files = [ "general.vim", "keymap.vim" ]
+
+
+try
+
+	" Import various configs
+	"exec "source " . vimrc_path . "/general_config.vim"
+
+	for filename in config_files
+		exec "source " . vimrc_path . "/" . filename
+	endfor
+
+
+endtry
