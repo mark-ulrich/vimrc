@@ -7,6 +7,10 @@ set softtabstop=2
 set number
 set relativenumber
 
+" Syntax highlight
+syntax on
+
+" Word wrap
 set wrap!
 
 " Mouse
