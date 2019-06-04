@@ -13,5 +13,8 @@ syntax on
 " Word wrap
 set wrap!
 
+" Show commands
+set showcmd
+
 " Mouse
 set mouse=a
