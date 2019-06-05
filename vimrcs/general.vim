@@ -14,7 +14,7 @@ syntax on
 set wrap!
 
 " Auto indent
-set autoindent
+set smartindent
 
 " Show commands
 set showcmd
