@@ -13,6 +13,9 @@ syntax on
 " Word wrap
 set wrap!
 
+" Auto indent
+set autoindent
+
 " Show commands
 set showcmd
 
