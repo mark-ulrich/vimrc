@@ -21,3 +21,5 @@ set showcmd
 
 " Mouse
 set mouse=a
+
+set timeoutlen=100
