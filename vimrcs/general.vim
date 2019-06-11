@@ -22,4 +22,8 @@ set showcmd
 " Mouse
 set mouse=a
 
+" Timeout
 set timeoutlen=500
+
+" Scrolling
+set scrolloff=10
