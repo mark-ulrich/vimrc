@@ -2,6 +2,7 @@
 " Tabs
 set shiftwidth=2
 set softtabstop=2
+set expandtab
 
 " Line numbers
 set number
@@ -27,3 +28,5 @@ set timeoutlen=500
 
 " Scrolling
 set scrolloff=10
+
+
