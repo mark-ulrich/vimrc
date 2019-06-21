@@ -33,3 +33,8 @@ nmap <leader>sca :%!
 " Read from file
 nmap <leader>r :r 
 nmap <leader>rs :r!
+
+
+" Add /bin/sh shebang line
+nmap <leader>sheb ggO#!/bin/sh<Esc><C-o>
+
