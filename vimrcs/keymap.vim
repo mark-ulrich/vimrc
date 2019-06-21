@@ -22,6 +22,7 @@ nmap <leader>bd :bd<Cr>
 
 " Substitution
 nmap <leader>s :s/
+vmap <leader>s :s/
 nmap <leader>sa :%s/
 
 " Run shell commands
