@@ -24,3 +24,10 @@ nmap <leader>bd :bd<Cr>
 nmap <leader>s :s/
 nmap <leader>sa :%s/
 
+" Run shell commands
+nmap <leader>sc :!
+nmap <leader>sca :%!
+
+" Read from file
+nmap <leader>r :r 
+nmap <leader>rs :r!
