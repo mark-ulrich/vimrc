@@ -27,8 +27,8 @@ vmap <leader>s :s/
 nmap <leader>sa :%s/
 
 " Run shell commands
-nmap <leader>sc :!
-nmap <leader>sca :%!
+nmap <leader>sx :!
+nmap <leader>sxa :%!
 
 " Read from file
 nmap <leader>r :r 
