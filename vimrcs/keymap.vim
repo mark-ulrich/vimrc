@@ -20,3 +20,7 @@ nmap <leader>wf :w!<Cr>
 nmap <leader>bn :bn<Cr>
 nmap <leader>bd :bd<Cr>
 
+" Substitution
+nmap <leader>s :s/
+nmap <leader>sa :%s/
+
