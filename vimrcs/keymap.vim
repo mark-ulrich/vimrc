@@ -10,7 +10,8 @@ nmap <Cr> o<Esc>
 " Closing
 nmap <leader>wq :wq<Cr>
 nmap <leader>q :q<Cr>
-nmap <leader>x :q!<Cr>
+nmap <leader>qx :q!<Cr>
+nmap <leader>wro :w!<Cr>
 
 " Saving
 nmap <leader>w :w<Cr>
