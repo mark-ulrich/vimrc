@@ -3,13 +3,14 @@
 " Setup Vim paths
 let vim_path = "~/.vim"
 let vimrc_path = vim_path . "/vimrcs"
+let plugin_path = vim_path . "/plugins"
 
 set runtimepath+=vim_path
 
 "echo vim_path
 "echo vimrc_path
 
-let config_files = [ "general.vim", "keymap.vim" ]
+let config_files = [ "general.vim", "keymap.vim", "plugins.vim" ]
 
 
 try

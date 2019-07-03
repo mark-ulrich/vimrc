@@ -16,7 +16,7 @@ nmap <leader>wro :w!<Cr>
 " Saving
 nmap <leader>w :w<Cr>
 nmap <leader>wf :w!<Cr>
-nmap <leader>W :w ! sudo tee %<Cr>
+nmap <leader>W :w ! sudo tee %<Cr><Cr>
 
 " Buffers
 nmap <leader>bn :bn<Cr>
