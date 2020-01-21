@@ -10,7 +10,7 @@ set runtimepath+=vim_path
 "echo vim_path
 "echo vimrc_path
 
-let config_files = [ "general.vim", "keymap.vim", "plugins.vim" ]
+let config_files = [ "general.vim", "keymap.vim", "plugins.vim", "gui.vim" ]
 
 
 try

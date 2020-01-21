@@ -4,7 +4,7 @@ call plug#begin(vim_path. '/vim-plug-plugins')
 "Plug 'Shougo/deoplete.nvim'
 "Plug 'roxma/nvim-yarp'
 "Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'zxqfl/tabnine-vim'
+"Plug 'zxqfl/tabnine-vim'
 call plug#end()
 
 
