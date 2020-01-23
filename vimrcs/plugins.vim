@@ -5,6 +5,7 @@ call plug#begin(vim_path. '/vim-plug-plugins')
 "Plug 'roxma/nvim-yarp'
 "Plug 'roxma/vim-hug-neovim-rpc'
 "Plug 'zxqfl/tabnine-vim'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 
