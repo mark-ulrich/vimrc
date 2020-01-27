@@ -39,3 +39,5 @@ nmap <leader>rs :r!
 " Add /bin/sh shebang line
 nmap <leader>sheb ggO#!/bin/sh<Esc><C-o>
 
+" Remove search highlights
+nmap <leader>nh :nohlsearch<Cr>
