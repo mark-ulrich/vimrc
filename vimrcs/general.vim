@@ -1,3 +1,4 @@
+source ~/.vim/vimrcs/cscope_maps.vim
 
 " Tabs
 set shiftwidth=2
@@ -25,6 +26,7 @@ set mouse=a
 
 " Timeout
 set timeoutlen=500
+set ttimeoutlen=10
 
 " Scrolling
 set scrolloff=10
