@@ -31,4 +31,6 @@ set ttimeoutlen=10
 " Scrolling
 set scrolloff=10
 
-
+" Smart case
+set ignorecase
+set smartcase
