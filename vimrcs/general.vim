@@ -34,3 +34,7 @@ set scrolloff=10
 " Smart case
 set ignorecase
 set smartcase
+
+" Persistent undo
+set undofile
+set undodir=~/.vim/.vimundo

@@ -1,3 +1,4 @@
 .netrwhist
 plugins
 vim-plug-*
+.vimundo
