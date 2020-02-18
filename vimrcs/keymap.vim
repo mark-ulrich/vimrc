@@ -41,3 +41,12 @@ nmap <leader>sheb ggO#!/bin/sh<Esc><C-o>
 
 " Remove search highlights
 nmap <leader>nh :nohlsearch<Cr>
+
+" Copy/Pasting
+nmap <C-x> "+d
+nmap <C-c> "+y
+nmap <C-v> "+p
+vmap <C-x> "+d
+vmap <C-c> "+y
+vmap <C-v> "+p
+imap <C-v> <C-r>"

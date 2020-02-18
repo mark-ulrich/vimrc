@@ -12,6 +12,7 @@ Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
+Plug 'vim-utils/vim-man'
 call plug#end()
 
 
