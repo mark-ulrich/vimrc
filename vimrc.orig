@@ -7,20 +7,11 @@ let plugin_path = vim_path . "/plugins"
 
 set runtimepath+=vim_path
 
-"echo vim_path
-"echo vimrc_path
-
 let config_files = [ "general.vim", "keymap.vim", "plugins.vim", "gui.vim" ]
 
-
+" Import various configs
 try
-
-	" Import various configs
-	"exec "source " . vimrc_path . "/general_config.vim"
-
 	for filename in config_files
 		exec "source " . vimrc_path . "/" . filename
 	endfor
-
-
 endtry
