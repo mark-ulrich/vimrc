@@ -7,7 +7,10 @@ let plugin_path = vim_path . "/plugins"
 
 set runtimepath+=vim_path
 
-let config_files = [ "general.vim", "keymap.vim", "plugins.vim", "gui.vim" ]
+" NOTE: Keep in mind the order these will be sourced. E.g. changing the color
+" scheme in 'gui.vim' can (perhaps desirably) override a colorscheme in
+" 'colors.vim'
+let config_files = [ "colors.vim", "gui.vim", "general.vim", "keymap.vim", "plugins.vim"]
 
 " Import various configs
 try
