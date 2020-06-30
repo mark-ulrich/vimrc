@@ -2,6 +2,7 @@
 " Leader key
 let mapleader = ","
 
+nnoremap <silent> <leader> :WhichKey ','<CR>
 
 " Basic movement/editing
 nmap <Cr> o<Esc>
@@ -13,14 +14,15 @@ nmap <leader>q :q<Cr>
 nmap <leader>xx :q!<Cr>
 nmap <leader>wro :w!<Cr>
 
-" Saving
-nmap <leader>w :w<Cr>
-nmap <leader>wf :w!<Cr>
+" Files
+nmap <leader>fs :w<Cr>
+nmap <leader>fsf :w!<Cr>
 nmap <leader>W :w ! sudo tee %<Cr><Cr>
+nmap <leader>fr :MRU<Cr>
+
 
 " Buffers
-nmap <leader>bn :bn<Cr>
-nmap <leader>bd :bd<Cr>
+nmap <leader>bd :bdelete<Cr>
 
 " Substitution
 nmap <leader>s :s/

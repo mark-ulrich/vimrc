@@ -1,10 +1,10 @@
 exec "source " . plugin_path . "/vim-plug/plug.vim"
 
 call plug#begin(vim_path. '/vim-plug-plugins')
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-surround'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'preservim/nerdcommenter'
 Plug 'rhysd/vim-clang-format'
 Plug 'kana/vim-operator-user'
@@ -13,6 +13,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'vim-utils/vim-man'
+Plug 'liuchengxu/vim-which-key'
+Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+Plug 'yegappan/mru'
 call plug#end()
 
 
