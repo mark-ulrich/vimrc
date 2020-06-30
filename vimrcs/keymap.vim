@@ -23,6 +23,9 @@ nmap <leader>fr :MRU<Cr>
 
 " Buffers
 nmap <leader>bd :bdelete<Cr>
+nmap q <C-w>q
+nmap <M-l> :bnext<Cr>
+nmap <M-h> :bprevious<Cr>
 
 " Substitution
 nmap <leader>s :s/
@@ -37,6 +40,15 @@ nmap <leader>sxa :%!
 nmap <leader>r :r 
 nmap <leader>rs :r!
 
+" Windows
+nmap <leader>ww <C-w><C-w>
+nmap <leader>wsh :split<Cr><C-w><C-w>
+nmap <leader>wsv :vsplit<Cr>
+nmap <leader>wo :only<Cr>
+nmap <leader>wdd <C-w>q
+
+" Git
+nmap <leader>xg :Git<Cr>
 
 " Add /bin/sh shebang line
 nmap <leader>sheb ggO#!/bin/sh<Esc><C-o>
