@@ -18,14 +18,14 @@ nmap <leader>wro :w!<Cr>
 nmap <leader>fs :w<Cr>
 nmap <leader>fsf :w!<Cr>
 nmap <leader>W :w ! sudo tee %<Cr><Cr>
-nmap <leader>fr :MRU<Cr>
+nmap <leader>fr :FZFMru<Cr>
 
 
 " Buffers
 nmap <leader>bd :bdelete<Cr>
-nmap q <C-w>q
-nmap <M-l> :bnext<Cr>
-nmap <M-h> :bprevious<Cr>
+nmap <leader>q <C-w>q
+nmap <M-l> :bnext!<Cr>
+nmap <M-h> :bprevious!<Cr>
 
 " Substitution
 nmap <leader>s :s/
@@ -46,6 +46,7 @@ nmap <leader>wsh :split<Cr><C-w><C-w>
 nmap <leader>wsv :vsplit<Cr>
 nmap <leader>wo :only<Cr>
 nmap <leader>wdd <C-w>q
+nmap <leader>wdo <C-w>o
 
 " Git
 nmap <leader>xg :Git<Cr>

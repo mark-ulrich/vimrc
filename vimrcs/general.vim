@@ -1,4 +1,4 @@
-source ~/.vim/vimrcs/cscope_maps.vim
+source ~/.config/vim/vimrcs/cscope_maps.vim
 
 " Tabs
 set shiftwidth=2
