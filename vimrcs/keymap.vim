@@ -26,6 +26,7 @@ nmap <leader>bd :bdelete<Cr>
 nmap <leader>q <C-w>q
 nmap <M-l> :bnext!<Cr>
 nmap <M-h> :bprevious!<Cr>
+nmap <leader>bs :Buffers<Cr>
 
 " Substitution
 nmap <leader>s :s/
@@ -44,9 +45,8 @@ nmap <leader>rs :r!
 nmap <leader>ww <C-w><C-w>
 nmap <leader>wsh :split<Cr><C-w><C-w>
 nmap <leader>wsv :vsplit<Cr>
-nmap <leader>wo :only<Cr>
 nmap <leader>wdd <C-w>q
-nmap <leader>wdo <C-w>o
+nmap <leader>wdo :only<Cr>
 
 " Git
 nmap <leader>xg :Git<Cr>
